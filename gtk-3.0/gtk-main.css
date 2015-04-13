@@ -165,6 +165,13 @@
 
 /* common color definitions to the light and dark variations */
 
+/*****************
+ * Unity Support *
+ ***************(*/
+@define-color panel_bg_color @theme_base_color;
+@define-color panel_fg_color @theme_text_color; 
+
+
 /*******
  * OSD *
  *******/
@@ -279,6 +286,8 @@
 @import url("gtk-widgets-backgrounds.css");
 @import url("gtk-widgets-borders.css");
 @import url("gtk-widgets-assets.css");
+@import url("apps/gnome-applications.css");
 @import url("gtk-widgets.css");
 @import url("gnome-applications.css");
+@import url("apps/unity.css");
 @import url("other-applications.css");
